@@ -6,6 +6,10 @@
     <title>20-Plug in</title>
     <link rel="icon" href="images/icon.png">
     <!-- CSS Link -->
+    <link rel="stylesheet" href="vendor/rateit/scripts/rateit.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/css/owl.theme.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -49,8 +53,188 @@
     </header>
 
     <!-- Navbar end -->
+
+    <!-- Swiper -->
+
+    <section class="swiper_">
+      <div class="container">
+        <div class="title">
+          <h1>Swiper carousel</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+
+            <div class="swiper swi1 mySwi1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swi1_img">
+                  <img src="images/img.jpg">
+                </div>
+                <div class="swiper-slide swi1_img">
+                  <img src="images/img2.jpg">
+                </div>
+                <div class="swiper-slide swi1_img">
+                  <img src="images/img3.jpg">
+                </div>
+                <div class="swiper-slide swi1_img">
+                  <img src="images/img4.jpg">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-lg-12">
+
+              <div class="swiper swi mySwi">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                  <div class="swiper-slide swi_img">
+                    <img src="images/img3.jpg">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper -->
+
+    <section class="swiper_">
+      <div class="container">
+        <div class="title">
+          <h1>OWL carousel</h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+
+            <div id="owl-demo" class="owl-carousel owl-theme">
+             
+              <div class="item o_it"><img src="images/img.jpg" class="w-100"></div>
+              <div class="item o_it"><img src="images/img2.jpg" class="w-100"></div>
+              <div class="item o_it"><img src="images/img3.jpg" class="w-100"></div>
+              <div class="item o_it"><img src="images/img4.jpg" class="w-100"></div>
+              <div class="item o_it"><img src="images/img.jpg" class="w-100"></div>
+              <div class="item o_it"><img src="images/img2.jpg" class="w-100"></div>
+              <div class="item o_it"><img src="images/img3.jpg" class="w-100"></div>
+              <div class="item o_it"><img src="images/img4.jpg" class="w-100"></div>
+             
+            </div>
+
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+
+            <div id="owl-demo2" class="owl-carousel owl-theme">
+                      
+              <div class="item o_it2"><h1>1</h1></div>
+              <div class="item o_it2"><h1>2</h1></div>
+              <div class="item o_it2"><h1>3</h1></div>
+              <div class="item o_it2"><h1>4</h1></div>
+              <div class="item o_it2"><h1>5</h1></div>
+              <div class="item o_it2"><h1>6</h1></div>
+              <div class="item o_it2"><h1>7</h1></div>
+              <div class="item o_it2"><h1>8</h1></div>
+              <div class="item o_it2"><h1>9</h1></div>
+              <div class="item o_it2"><h1>10</h1></div>
+              <div class="item o_it2"><h1>11</h1></div>
+              <div class="item o_it2"><h1>12</h1></div>
+              <div class="item o_it2"><h1>13</h1></div>
+              <div class="item o_it2"><h1>14</h1></div>
+              <div class="item o_it2"><h1>15</h1></div>
+              <div class="item o_it2"><h1>16</h1></div>
+             
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="star_rating">
+      <div class="container">
+        <div class="title">
+          <h1>Star rating</h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+
+            <div id="sr_item">
+             
+              <form>
+                <input type="range" value="5" step="0.25" id="backing5">
+                <div class="rateit" data-rateit-backingfld="#backing5" data-rateit-resetable="false"  data-rateit-ispreset="true"
+                    data-rateit-min="0" data-rateit-max="10" >
+                </div>
+                <button class="btn btn-primary">Submit</button>
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+
+            <div id="sr_item">
+             
+              <form>
+                <div class="rateit" data-rateit-mode="font">
+                </div>
+                <button class="btn btn-primary">Submit</button>
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="water_ripple">
+      <div class="title ">
+        <h1>water-ripple</h1>
+      </div>
+      <canvas id="myClouds">
+      </canvas>
+    </section>
     
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="vendor/klouds/js/klouds.min.js"></script>
+    <script src="vendor/rateit/scripts/jquery.rateit.js"></script>
+    <script src="vendor/owl-carousel/js/owl.carousel.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
